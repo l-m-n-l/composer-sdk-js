@@ -1,16 +1,27 @@
 {
-  "name": "composer-sdk",
-  "version": "1.0.0",
+  "name": "lmnl-composer-sdk",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/l-m-n-l/composer-sdk-js.git"
   },
-  "author": "",
+  "keywords": [
+    "api",
+    "sdk",
+    "typescript",
+    "lmnl",
+    "composable",
+    "composer"
+  ],
+  "author": "LMNL",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/l-m-n-l/composer-sdk-js/issues"
